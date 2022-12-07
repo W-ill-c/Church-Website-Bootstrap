@@ -167,7 +167,9 @@ i{
     margin: 13vh 0vw 0vh 0vw;
 }
 
-
+.otherServices{
+    padding-top: 8px;
+}
 
 .card-header{
     background-color: #b76e79;
