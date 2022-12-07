@@ -1,3 +1,14 @@
+/* Main Body for Both Pages */
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafafa;;
+}
+
+h2{
+    color: #b76e79;
+}
+
+
 /* NavBar  */
 
 .navbar{
@@ -37,4 +48,115 @@
 .form-control:focus{
     border-color: #b76e79;
     box-shadow: 0 0 2px 2px #b76e79;
+}
+
+
+
+/* Home Page Main Section  */
+
+.main{
+    margin-top: 22vh;
+}
+
+
+.mainBody{
+    padding: 0 10px;
+}
+
+.subText{
+    padding: 0% 7.5%;
+}
+
+.dropdown-item:hover{
+    color: rgb(12, 12, 189);
+}
+
+.sideImg{
+    width: 17.5vw;
+    object-fit: cover;
+}
+
+.right{
+    border-color: #b76e79;
+    border-width: 0px 0px 0px 2px;
+    border-style: solid;
+    align-items: center;
+}
+
+
+/* Carousel */
+
+.eventsCarousel{
+    text-align: center;
+    background-color: rgb(180, 180, 234);
+    border-color: #b76e79;
+    border-width: 2.5px;
+    border-style: solid;
+    width: 96vw;
+}
+
+.carousel-item{
+    padding: 2% 10% 7% 10%;
+    height: 90vh;
+    position: relative;
+}
+
+.carouselImages{
+    /* position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    position: center;
+    opacity: 0.9;
+    height: 20vh;
+    /* width: 50vw; */
+    border-color: #b76e79;
+    border-width: 1.5px;
+    border-style: solid;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+
+.carousel-caption{
+    color: black;
+    padding: 0;
+}
+
+.carousel-control-prev{
+    position: absolute;
+    right: 87.5%;
+    left: auto;
+}
+.carousel-control-next{
+    position: absolute;
+    left: 87.5%;
+    right: auto;
+}
+
+/* Footer  */
+
+.iconEnd{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.icons{
+    text-align: center;
+}
+.youtubeIcon{
+    color: red;
+}
+
+.fa-facebook{
+    color: blue;
+}
+
+.fa-twitter{
+    color: rgb(114, 162, 229);
+}
+
+i{
+    padding: 1% 2.5%;
 }
