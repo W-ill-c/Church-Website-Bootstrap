@@ -1,3 +1,14 @@
+/* Main Body for Both Pages */
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafafa;;
+}
+
+h2{
+    color: #b76e79;
+}
+
+
 /* NavBar  */
 
 .navbar{
@@ -38,3 +49,37 @@
     border-color: #b76e79;
     box-shadow: 0 0 2px 2px #b76e79;
 }
+
+
+
+/* Home Page Main Section  */
+
+.main{
+    margin-top: 7vh;
+}
+
+
+.mainBody{
+    padding: 0 10px;
+}
+
+.subText{
+    padding: 0% 7.5%;
+}
+
+.dropdown-item:hover{
+    color: rgb(12, 12, 189);
+}
+
+.sideImg{
+    width: 17.5vw;
+    object-fit: cover;
+}
+
+.right{
+    border-color: #b76e79;
+    border-width: 0px 0px 0px 2px;
+    border-style: solid;
+    align-items: center;
+}
+
