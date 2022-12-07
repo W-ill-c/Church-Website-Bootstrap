@@ -55,7 +55,7 @@ h2{
 /* Home Page Main Section  */
 
 .main{
-    margin-top: 22vh;
+    margin-top: 11.5vh;
 }
 
 
@@ -93,6 +93,7 @@ h2{
     border-width: 2.5px;
     border-style: solid;
     width: 96vw;
+    border-radius: 5px;
 }
 
 .carousel-item{
@@ -107,16 +108,16 @@ h2{
     left: 0;
     right: 0; */
     position: center;
-    opacity: 0.9;
-    height: 20vh;
-    /* width: 50vw; */
+    width: 80%;
     border-color: #b76e79;
     border-width: 1.5px;
     border-style: solid;
-    height: 100%;
+    height: 95%;
     background-size: cover;
     background-position: center;
     opacity: 0.9;
+    padding:0%;
+    margin: 0%;
 }
 
 .carousel-caption{
@@ -219,4 +220,46 @@ i{
 
 h4{
     color: #b76e79;
+}
+
+@media screen and (max-width:1000px){
+    .card{
+        height: 85vh;
+    }
+
+    .main{
+        margin-top: 11vh;
+    }
+
+    .carousel-item{
+        position: relative;
+    }
+
+    .carouselImages{
+        height: 80%;
+    }
+
+    .carousel-caption{
+        position: relative;
+        top: 5vh;
+        margin: 0 auto;
+        width:fit-content;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .serviceSunday{
+        padding: 5px 0px 5px 0px;
+    }
+
+    .otherServices{
+        padding-top: 3vh;
+    }
+
+    .iconEnd{
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
 }
