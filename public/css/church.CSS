@@ -1,0 +1,40 @@
+/* NavBar  */
+
+.navbar{
+    background-color: rgb(12, 12, 189);
+    position:fixed;
+
+}
+
+.navbar{
+    border-color: #b76e79;
+    border-width: 0px 0px 2.5px 0px;
+    border-style: solid;
+}
+
+.nav-item{
+    margin:auto;
+}
+.navbBtn:hover{
+    background-color: #b76e79;
+}
+
+.btn{
+    background-color: rgb(12, 12, 189);
+    border: none;
+}
+
+.navbBtn{
+    margin: 0%;
+    background-color: white;
+    border-color: #b76e79;
+}
+
+.menu{
+    border-color: #b76e79;
+}
+
+.form-control:focus{
+    border-color: #b76e79;
+    box-shadow: 0 0 2px 2px #b76e79;
+}
