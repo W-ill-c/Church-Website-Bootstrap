@@ -135,3 +135,28 @@ h2{
     right: auto;
 }
 
+/* Footer  */
+
+.iconEnd{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.icons{
+    text-align: center;
+}
+.youtubeIcon{
+    color: red;
+}
+
+.fa-facebook{
+    color: blue;
+}
+
+.fa-twitter{
+    color: rgb(114, 162, 229);
+}
+
+i{
+    padding: 1% 2.5%;
+}
