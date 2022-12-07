@@ -83,3 +83,55 @@ h2{
     align-items: center;
 }
 
+
+/* Carousel */
+
+.eventsCarousel{
+    text-align: center;
+    background-color: rgb(180, 180, 234);
+    border-color: #b76e79;
+    border-width: 2.5px;
+    border-style: solid;
+    width: 96vw;
+}
+
+.carousel-item{
+    padding: 2% 10% 7% 10%;
+    height: 90vh;
+    position: relative;
+}
+
+.carouselImages{
+    /* position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    position: center;
+    opacity: 0.9;
+    height: 20vh;
+    /* width: 50vw; */
+    border-color: #b76e79;
+    border-width: 1.5px;
+    border-style: solid;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+
+.carousel-caption{
+    color: black;
+    padding: 0;
+}
+
+.carousel-control-prev{
+    position: absolute;
+    right: 87.5%;
+    left: auto;
+}
+.carousel-control-next{
+    position: absolute;
+    left: 87.5%;
+    right: auto;
+}
+
